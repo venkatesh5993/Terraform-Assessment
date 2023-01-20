@@ -18,11 +18,19 @@ var.region
 var.stage
   Enter a value: terraform
 
-### •Your web site should be accessible to the public internet.
-Go to Amazon S3 > Buckets >venkateshmywebsite-bucket >index.html
+### •Your web site should be accessible to the public internet. follow below steps
+Go to Amazon S3 > Buckets >venkateshmywebsite-bucket >index.html > copy html url and test in browser
 
-copy url its allowed public
+example: https://venkateshmywebsite-bucket.s3.ap-southeast-2.amazonaws.com/index.html
+
+url its allowed public only
 
 letter we will migrate with domain name route 53
 
+Things to consider:
+
+•Others in your team should be able to maintain the solution. 
+•How you would measure the quality of your solution?
+we will be maintaining terraform terraform.tfstate file on s3
+we will follow code maintain best practices like PR approval from senior.
 
