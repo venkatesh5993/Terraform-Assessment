@@ -31,6 +31,7 @@ Things to consider:
 
 •Others in your team should be able to maintain the solution. 
 •How you would measure the quality of your solution?
-we will be maintaining terraform terraform.tfstate file on s3
+
+we will be maintaining terraform terraform.tf state file on s3
 we will follow code maintain best practices like PR approval from senior.
 
